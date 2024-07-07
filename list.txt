@@ -1,0 +1,14 @@
+C:\Users\admin\dev\ai\proj_mini\app.py
+C:\Users\admin\dev\ai\proj_mini\db_manager.py
+C:\Users\admin\dev\ai\proj_mini\legal_cases.db
+C:\Users\admin\dev\ai\proj_mini\list.txt
+C:\Users\admin\dev\ai\proj_mini\static
+C:\Users\admin\dev\ai\proj_mini\templates
+C:\Users\admin\dev\ai\proj_mini\설치해야할 라이브러리.txt
+C:\Users\admin\dev\ai\proj_mini\static\css
+C:\Users\admin\dev\ai\proj_mini\static\js
+C:\Users\admin\dev\ai\proj_mini\static\css\stayle.css
+C:\Users\admin\dev\ai\proj_mini\static\js\script.js
+C:\Users\admin\dev\ai\proj_mini\templates\index.html
+C:\Users\admin\dev\ai\proj_mini\templates\result.html
+C:\Users\admin\dev\ai\proj_mini\templates\search.html
