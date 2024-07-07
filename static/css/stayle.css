@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../photo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+}
+
+header {
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom: 3px solid #000;
+    width: 100%;
+}
+
+header h2 {
+    margin: 0;
+}
+
+.main-content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+}
+
+.start-button, .search-button {
+    background-color: #000;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.usage-guide-container, .guide-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.usage-guide, .guide-content {
+    display: flex;
+    background-color: rgba(248, 248, 248, 0.9);
+    padding: 40px;
+    max-width: 1000px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.usage-guide-title {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.usage-guide-content {
+    flex: 2;
+    padding-left: 40px;
+}
+
+.usage-guide ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.usage-guide li, .guide-steps li {
+    margin-bottom: 15px;
+}
+
+.usage-guide strong {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.guide-content {
+    flex-direction: column;
+}
+
+.guide-main {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.guide-steps {
+    flex: 1;
+    padding-right: 40px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guide-steps ol {
+    padding-left: 20px;
+    margin-top: 0; 
+}
+
+.guide-title {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.guide-title h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.guide-example {
+    background-color: rgba(224, 224, 224, 0.9);
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.search-button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.form-check-input {
+    border: 2px solid #ccc;
+    width: 1.25em;
+    height: 1.25em;
+}
+
+.form-check-input:checked {
+    background-color: #000;
+    border-color: #000;
+}
+
+.custom-textarea {
+    background-color: #f0f0f0;
+    border: none;
+}
+
+.result-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.legal-term {
+    font-weight: bold;
+    color: #0056b3;
+    cursor: help;
+}
